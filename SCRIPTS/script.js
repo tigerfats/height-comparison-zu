@@ -32,7 +32,7 @@ function drawUserHeight() {
   const clone = $($("#height-obj-template").html());
   const obj = $("<img />");
   obj.addClass("height-img-obj");
-  obj.attr("src", "Human_outline_generic.svg");
+  obj.attr("src", "zu_blank_solid.svg");
   obj.attr("height", height * (CONTAINER_HEIGHT/FULL_HEIGHT));
   $(".height-img", clone).append(obj);
   $(".height-name", clone).text($("#text-name").val() || `person ${nameIndex}`)
