@@ -9,6 +9,6 @@ const HEIGHT_DATA =
   {
     name: "Example",
     height: 100,
-    image_url: "/IMAGES/zu_blank_solid.svg" // get image file name from the IMAGES folder
+    image_url: "/IMAGES/Human_outline_generic.svg" // get image file name from the IMAGES folder
   }
 ];
